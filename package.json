@@ -1,0 +1,14 @@
+{
+  "name": "use-queues",
+  "version": "1.0.0",
+  "description": "",
+  "main": "process.js",
+  "scripts": {
+    "start": "node dump.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf ./data/*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
