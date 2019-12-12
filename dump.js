@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const folder = 'data';
 
-const NUMBEROFITEMS = 5_000;
+const NUMBEROFITEMS = 10_000;
 
 const writeJSONAsync = (filePath, content) =>
   new Promise((resolve, reject) => {
