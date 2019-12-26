@@ -1,6 +1,6 @@
-const fs = require("fs");
-const path = require("path");
-const folder = "data";
+const fs = require('fs');
+const path = require('path');
+const folder = 'data';
 
 const NUMBEROFITEMS = 5_000;
 
@@ -25,4 +25,6 @@ const promises = Array.from({ length: NUMBEROFITEMS }).map((_, index) => {
   return writeJSONAsync(file, content);
 });
 
-Promise.all(promises).then(() => console.log("Finished..."));
+Promise.all(promises).then(() =>
+  console.log(`${NUMBEROFITEMS} files created.`)
+);
