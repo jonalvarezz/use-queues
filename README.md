@@ -28,6 +28,7 @@ This repository provides an example of using queues to handle thousands of files
 
     ```sh
     git checkout -b make-it-queue origin/make-it-queue
+    yarn
     yarn start
     ```
 
